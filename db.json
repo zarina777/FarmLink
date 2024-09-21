@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "name": "apple",
+      "price": "3$ for a kilo",
+      "description": "Apple from Bakhmal trees with bitter taste",
+      "img": ["./images/apple.jpg"],
+      "type": "fruit"
+    },
+    {
+      "name": "apple",
+      "price": "3$ for a kilo",
+      "description": "Apple from Bakhmal trees with bitter taste",
+      "img": ["./images/apple.jpg"],
+      "type": "fruit"
+    },
+    {
+      "name": "apple",
+      "price": "3$ for a kilo",
+      "description": "Apple from Bakhmal trees with bitter taste",
+      "img": ["./images/apple.jpg"],
+      "type": "fruit"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+.Navs {
+  display: flex;
+  gap: 30px;
+}
+.Navs li a {
+  color: #282828;
+  font-size: 19px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+.Navs li:hover a {
+  color: #10c5f8;
+}/*# sourceMappingURL=style.module.css.map */

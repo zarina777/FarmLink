@@ -1,0 +1,73 @@
+.Footer {
+  .logo {
+    text-align: center;
+    color: #13751E;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 20px 0;
+  }
+  .Navs {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    padding: 10px 0;
+
+    li {
+      a {
+        font-size: 15px;
+        font-weight: 500;
+        color: #282828;
+        transition: all 0.5s;
+      }
+      &:hover {
+        a {
+          color: #13751E;
+        }
+      }
+    }
+  }
+  .Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 15px 20px;
+    &::before {
+      content: " ";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      top: 0;
+      left: 0;
+      background-color: #13751E;
+    }
+    .contact {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      a {
+        cursor: pointer;
+      }
+      p {
+        font-size: 13px;
+      }
+    }
+
+    .wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 13px;
+      i {
+        font-size: 22px;
+        color: #13751E;
+        cursor: pointer;
+        transition: all 0.5s;
+        &:hover {
+          color: #282828;
+        }
+      }
+    }
+  }
+}

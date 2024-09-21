@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style-type: none;
+	text-decoration: none;
+	font-family: "Montserrat", sans-serif;
+  }
+  button,
+  input {
+	outline: none;
+	border: none;
+  }
+  .active {
+	color: #13751E !important;
+	position: relative;
+	&::before {
+	  content: "";
+	  position: absolute;
+	  width: 100%;
+	  left: 0;
+	  bottom: -5px;
+	  height: 2px;
+	  background-color: #13751E;
+	}
+  }

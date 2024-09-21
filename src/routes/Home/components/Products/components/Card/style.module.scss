@@ -1,0 +1,58 @@
+.Card_wrap {
+  background-color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  // padding: 9px;
+
+  .Card {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    min-height: 250px;
+    span {
+      color: #fff;
+      align-self: flex-end;
+      font-weight: 700;
+    }
+  }
+  .info {
+    padding: 8px 13px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 10px;
+    background-color: rgb(252, 255, 244);
+
+    h3 {
+      color: #13751ede;
+    }
+    p {
+      font-size: 12px;
+      max-width: 80%;
+    }
+    button {
+      background-color: transparent;
+      width: 100%;
+      border: 1px solid rgb(255, 255, 255);
+      background-color: #13751ede;
+      color: rgb(255, 255, 255);
+
+      cursor: pointer;
+      padding: 10px;
+      font-size: 16px;
+      transition: all 0.5s;
+      &:hover {
+        color: #333;
+        background-color: #13751e45;
+        border: 1px solid #13751ede;
+      }
+    }
+  }
+}

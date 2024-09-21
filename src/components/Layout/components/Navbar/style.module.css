@@ -1,0 +1,55 @@
+.Navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 1000;
+}
+.Navbar .Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.Navbar .Container .logo {
+  max-width: 146px;
+}
+.Navbar .Container .controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.Navbar .Container .controls .singup {
+  border: 1px solid #10c5f8;
+  background-color: transparent;
+  padding: 11px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.45s;
+}
+.Navbar .Container .controls .singup a {
+  color: #10c5f8;
+}
+.Navbar .Container .controls .singup:hover {
+  background-color: #10c5f8;
+}
+.Navbar .Container .controls .singup:hover a {
+  color: #fff;
+}
+.Navbar .Container .controls span i {
+  font-size: 22px;
+  cursor: pointer;
+  padding: 9px;
+  border: 1px solid #10c5f8;
+  transition: all 0.45s;
+  border-radius: 7px;
+  color: hsl(193deg, 97%, 47%);
+}
+.Navbar .Container .controls span i:hover {
+  background-color: #10c5f8;
+  color: #fff;
+}/*# sourceMappingURL=style.module.css.map */

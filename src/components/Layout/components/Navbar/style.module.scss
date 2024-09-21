@@ -1,0 +1,61 @@
+.Navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 1000;
+  .Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    .logo {
+      font-weight: 700;
+      font-size: 25px;
+      color: #13751e;
+
+    }
+    .controls {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      .singup {
+        border: 1px solid #13751e;
+        background-color: #13751e;
+        padding: 11px 16px;
+        border-radius: 5px;
+        font-weight: 600;
+        font-size: 16px;
+        cursor: pointer;
+        transition: all 0.45s;
+
+        a {
+          color: #fff;
+        }
+        &:hover {
+          background-color: #fff;
+          a {
+            color: #13751e;
+          }
+        }
+      }
+      span {
+        i {
+          font-size: 22px;
+          cursor: pointer;
+          padding: 9px;
+          border: 1px solid #13751e;
+          transition: all 0.45s;
+          border-radius: 7px;
+          color: #20841b;
+
+          &:hover {
+            background-color: #13751e;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

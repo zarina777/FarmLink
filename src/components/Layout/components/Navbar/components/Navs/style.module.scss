@@ -1,0 +1,18 @@
+.Navs {
+  display: flex;
+  gap: 30px;
+
+  li {
+    a {
+      color: #282828;
+      font-size: 19px;
+      font-weight: 500;
+      transition: all 0.3s;
+    }
+    &:hover {
+      a {
+        color: #13751E;
+      }
+    }
+  }
+}
