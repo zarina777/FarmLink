@@ -1,6 +1,6 @@
 import cn from './style.module.scss'
 import ImageWrapper from '../imageWrapper'
-import Images from '../../../../assets/images/rasm.avif'
+import img from './farmer.webp'
 const Section1 = () => {
   return (
     <div className={cn.Section1_wrapper}>
@@ -11,7 +11,7 @@ const Section1 = () => {
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, sed?</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates a perferendis amet nisi aspernatur eos repellat sapiente aperiam ullam debitis?</p>
     </div>
-      <ImageWrapper src={Images} alt="Image about farm" className={cn.ImageWrapper} />
+      <ImageWrapper src={img} alt="Image about farm" className={cn.ImageWrapper} />
 
     </div>
    

@@ -41,8 +41,7 @@
       background-color: green;
     }
   }
-  .imageWrapper {
-    width: 50%;
-    height: 100%;
+  .ImageWrapper {
+    object-fit: cover;
   }
 }
