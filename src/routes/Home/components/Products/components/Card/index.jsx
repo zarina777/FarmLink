@@ -1,6 +1,6 @@
 import cn from "./style.module.scss";
 
-const Card = ({ type, name, img,description }) => {
+const Card = ({ type, name, img ,description }) => {
   return (
     <div className={cn.Card_wrap}>
       <div style={{ backgroundImage: `url(${img})` }} className={cn.Card}>

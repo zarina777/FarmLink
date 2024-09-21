@@ -1,25 +1,137 @@
 {
   "products": [
     {
-      "name": "apple",
-      "price": "3$ for a kilo",
+      "name": "Apple Red",
+      "price": "3,000 UZS for a kilo",
       "description": "Apple from Bakhmal trees with bitter taste",
       "img": ["./images/apple.jpg"],
       "type": "fruit"
     },
     {
-      "name": "apple",
-      "price": "3$ for a kilo",
-      "description": "Apple from Bakhmal trees with bitter taste",
-      "img": ["./images/apple.jpg"],
+      "name": "Bellpepper",
+      "price": "Around 8,000 UZS per kg.",
+      "description": "The 'Qizil' variety of bell pepper is a sweet and nutritious vegetable rich in vitamins.",
+      "img": ["./images/bellPepper.jpg"],
+      "type": "vegetable"
+    },
+    {
+      "name": "Cabbage",
+      "price": "Around 2,000 UZS per kg.",
+      "description": "'Moscow' turidagi kapusta salatlar va sho'rvalar uchun ideal sabzavot.",
+      "img": ["./images/cabbage.jpg"],
+      "type": "melon crop"
+    },
+    {
+      "name": "Carrot",
+      "price": "Around 3,000 UZS per kg.",
+      "description": "The Nantes variety of carrot is a sweet and nutritious vegetable.",
+      "img": ["./images/carrot.jpg"],
+      "type": "vegetable"
+    },
+    {
+      "name": "Cauliflower",
+      "price": "Around 6,000 UZS per kg",
+      "description": "'Snowball' turidagi qalbirog' vitaminlarga boy sabzavot.",
+      "img": ["./images/cauliflower.jpg"],
+      "type": "melon crop"
+    },
+    {
+      "name": "Cherry Samarqand",
+      "price": "Around 14,000 UZS per kg",
+      "description": "The 'Beshtepa' variety of cherry is a sweet and fragrant fruit.",
+      "img": ["./images/cherry.jpg"],
       "type": "fruit"
     },
     {
-      "name": "apple",
-      "price": "3$ for a kilo",
-      "description": "Apple from Bakhmal trees with bitter taste",
-      "img": ["./images/apple.jpg"],
+      "name": "Grapes kishmish",
+      "price": "Around 13,000 UZS per kg.",
+      "description": "The 'Kishmish' variety of grapes is a sweet and juicy fruit",
+      "img": ["./images/grapes.jpg"],
       "type": "fruit"
+    },
+    {
+      "name": "Melon Obinovot",
+      "price": "Around 8,000 UZS per kg.",
+      "description": "The 'Sardor' variety of melon is a sweet and juicy fruit.",
+      "img": ["./images/melon.jpg"],
+      "type": "melon crop"
+    },
+    {
+      "name": "Onion",
+      "price": "Around 2,000 UZS per kg.",
+      "description": "The 'Sariq' variety of onion is an essential vegetable for various dishes.",
+      "img": ["./images/onion.jpg"],
+      "type": "vegetable"
+    },
+    {
+      "name": "Big Peach",
+      "price": "Around 12,000 UZS per kg",
+      "description": "The 'Azerbaijan' variety of peach is a sweet and juicy fruit.",
+      "img": ["./images/peach.jpg"],
+      "type": "fruit"
+    },
+    {
+      "name": "Pear delicious",
+      "price": "Around 10,000 UZS per kg.",
+      "description": "The 'Bartlett' variety of pear is a sweet and juicy fruit.",
+      "img": ["./images/pear.jpg"],
+      "type": "fruit"
+    },
+    {
+      "name": "Pomegranate",
+      "price": "Around 15,000 UZS per kg",
+      "description": "'Qizil Anor' turidagi anor o'ziga xos shirin va kislotali ta'mga ega.",
+      "img": ["./images/pomegranate.jpg"],
+      "type": "fruit"
+    },
+    {
+      "name": "Potatoes russia",
+      "price": "Around 3,000 UZS per kg",
+      "description": "The 'Saratov' variety of potato, commonly found in Uzbekistan, is a versatile vegetable suitable for various dishes.",
+      "img": ["./images/potatoes.jpg"],
+      "type": "vegetable"
+    },
+    {
+      "name": "Pumpkin yellow",
+      "price": "Price: Around 2,000 UZS per kg.",
+      "description": "The 'Sariq' variety of pumpkin, common in Uzbekistan, is soft and sweet in flavor.",
+      "img": ["./images/pumpkin.jpg"],
+      "type": "melon crop"
+    },
+    {
+      "name": "Radish",
+      "price": "Price: Around 3,000 UZS per kg.",
+      "description": "The 'Qizil' variety of radish is a spicy vegetable often used in salads and side dishes.",
+      "img": ["./images/radish.jpg"],
+      "type": "vegetable"
+    },
+    {
+      "name": "Strawberry",
+      "price": "Price: Around 20,000 UZS per kg.",
+      "description": " The 'Sofia' variety of strawberry is a sweet and fragrant fruit.",
+      "img": ["./images/strawberry.jpg"],
+      "type": "vegetable"
+    },
+    {
+      "name": "Tomato chili",
+      "price": "Price: Around 5,000 UZS per kg.",
+      "description": "The 'Chili' variety of tomato is a juicy vegetable, ideal for sauces and salads.",
+      "img": ["./images/tomato.jpg"],
+      "type": "vegetable"
+    },
+    {
+      "name": "Turnip",
+      "price": "Price: Around 2,000 UZS per kg.",
+      "description": "The 'Bardhush' variety of turnip is a root vegetable often added to salads and soups.",
+      "img": ["./images/turnip.jpg"],
+      "type": "vegetable"
+    },
+    {
+      "name": "Watermelon",
+      "price": "Price: Around 3,000 UZS per kg",
+      "description": "The 'Gulshan' variety of watermelon is a refreshing, juicy, and sweet fruit perfect for hot summer days.",
+      "img": ["./images/watermelon.jpg"],
+      "type": "melon crop"
     }
   ]
 }

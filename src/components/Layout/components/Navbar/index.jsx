@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Container from "../../../Container/Container";
 import Navs from "./components/Navs";
 import cn from "./style.module.scss";
@@ -17,12 +18,13 @@ const Navbar = () => {
           <span>
             <i className="fa-solid fa-moon"></i>
           </span>
-          <button className={cn.singup}>
-            <a href="singup">Sing up</a>
-          </button>
-          <button className={cn.singup}>
-            <a href="singup">Log in</a>
-          </button>
+          <Link className={cn.singup} to="auth/signup">
+            Sing up
+          </Link>
+
+          <Link className={cn.singup} to="auth/login">
+            Log in
+          </Link>
         </div>
       </Container>
     </div>

@@ -7,7 +7,7 @@ const ProductsEx = () => {
   const data = JSON.parse(JSON.stringify(db)).products;
 
   return (
-    <div className={cn.Mentors}>
+    <div className={cn.ProductsEx}>
       <div className={cn.heading}>
         <h1>FarmLink</h1>
         <h2>Find Top Agricultural Products with High Quality</h2>
@@ -21,7 +21,7 @@ const ProductsEx = () => {
                 type={el.type.toUpperCase()}
                 img={el.img[0]}
                 name={el.name}
-                about={el.description.substring(0, 60)}
+                description={el.description.substring(0, 60)}
               />
             );
           }

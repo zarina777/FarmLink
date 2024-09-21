@@ -24,7 +24,7 @@ const Banner = () => {
                     style={{
                       left: `${40 * index - index * 2}px`,
                       zIndex: `-${index}`,
-                      backgroundImage: `url("./images/user.jpg")`,
+                      backgroundImage: `url("./user.jpg")`,
                     }}
                   >
                     <img src="" alt="" />

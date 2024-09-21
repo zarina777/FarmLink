@@ -1,0 +1,21 @@
+.Products {
+  background-color: #1da62d37;
+  .Container {
+    .categories_wrap {
+      width: 100%;
+      border-bottom: 1px solid #13751e69;
+      display: flex;
+      gap: 10px;
+      padding: 20px 10px 9px;
+      position: sticky;
+      top: 10%;
+      backdrop-filter: blur(2px);
+    }
+    .products_wrap {
+      padding: 20px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+  }
+}

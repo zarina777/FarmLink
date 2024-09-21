@@ -1,0 +1,17 @@
+.Category {
+  padding: 10px 25px;
+  background-color: #fff;
+  border: 1px solid #13751e;
+  color: #13751e;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  &:hover {
+    background-color: #13751e;
+    color: #fff;
+  }
+}
+.on {
+  background-color: #13751e;
+  color: #fff;
+}

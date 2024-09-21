@@ -11,16 +11,13 @@ const Footer = () => {
           <Link to="/">Homepage</Link>
         </li>
         <li>
-          <Link to="mentors">Mentors</Link>
+          <Link to="products">Products</Link>
         </li>
         <li>
-          <Link to="resources">Resources</Link>
+          <Link to="about">About</Link>
         </li>
         <li>
           <Link to="contact">Contact</Link>
-        </li>
-        <li>
-          <Link to="help">Help</Link>
         </li>
       </ul>
       <Container className={cn.Container}>
