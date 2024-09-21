@@ -45,7 +45,7 @@ const CardOfMentor = ({ product }) => {
       </div>
       <div className={cn.order}>
         <div className={cn.hour}>{product.price}</div>
-        <div className={cn.orderBtn}>Order and Connect with Fermer Now</div>
+        <div className={cn.orderBtn}>Order and Connect with Farmer Now</div>
       </div>
     </div>
   );
