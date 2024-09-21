@@ -1,4 +1,4 @@
-import styles from './ImageWrapper.module.scss';
+import styles from './style.module.scss';
 
 const ImageWrapper = ({ src, alt, className }) => {
   return (

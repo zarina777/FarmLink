@@ -1,92 +1,102 @@
 .Signup {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background: linear-gradient(135deg, #13751e, #0da850);
-	padding: 40px 80px;
-	border-radius: 15px;
-	flex-direction: column;
-	gap: 24px;
-	max-width: 600px;
-	width: 100%;
-	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-	transition: box-shadow 0.3s ease-in-out;
-  
-	&:hover {
-	  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
-	}
-  
-	h2 {
-	  font-size: 32px;
-	  color: #ffffff;
-	  font-weight: 700;
-	  margin-bottom: 15px;
-	}
-	.select {
-	  font-weight: 600;
-	  border-radius: 5px;
-	  background-color: #ffffff;
-	  border: 1px solid #ddd;
-	  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-	  width: 100%;
-	}
-	h3 {
-	  font-size: 17px;
-	  color: #ffffff;
-	}
-	p {
-	  width: 100%;
-	  display: flex;
-	  flex-direction: column;
-	  gap: 10px;
-	}
-	label {
-	  width: 100%;
-	  display: flex;
-	  flex-direction: column;
-	  gap: 12px;
-  
-	  h3 {
-		color: #e1e1e1;
-		font-weight: 500;
-		font-size: 16px;
-	  }
-  
-	  input {
-		padding: 14px 18px;
-		border-radius: 8px;
-		width: 100%;
-		font-weight: 500;
-		font-size: 16px;
-		border: 1px solid #ddd;
-		background-color: #f9f9f9;
-		transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-  
-		&:focus {
-		  border-color: #0da850;
-		  box-shadow: 0 0 5px rgba(13, 168, 80, 0.3);
-		}
-	  }
-	}
-  
-	button {
-	  color: #ffffff;
-	  font-weight: 600;
-	  font-size: 17px;
-	  padding: 14px 28px;
-	  border-radius: 12px;
-	  background-color: #36c900;
-	  cursor: pointer;
-	  border: none;
-	  transition: all 0.3s ease-in-out;
-	  align-self: flex-end;
-  
-	  &:hover {
-		background-color: #ffffff;
-		color: #13751e;
-		border: 1px solid #13751e;
-		box-shadow: 0 0 8px rgba(19, 117, 30, 0.5);
-	  }
-	}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #13751e, #0da850);
+  padding: 40px;
+  border-radius: 15px;
+  flex-direction: column;
+  gap: 24px;
+  width: fit-content;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  min-width: 600px;
+  &:hover {
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
   }
-  
+
+  h2 {
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  .super_wrap {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    padding: 0 20px;
+    .wrap {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      .select {
+        font-weight: 600;
+        border-radius: 5px;
+        background-color: #ffffff;
+        border: 1px solid #ddd;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        width: 100%;
+        min-width: 300px;
+      }
+      h3 {
+        font-size: 17px;
+        color: #ffffff;
+      }
+      p {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      label {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        h3 {
+          color: #e1e1e1;
+          font-weight: 500;
+          font-size: 20px;
+        }
+
+        input {
+          padding: 14px 18px;
+          border-radius: 8px;
+          width: 100%;
+          font-weight: 500;
+          font-size: 16px;
+          border: 1px solid #ddd;
+          background-color: #f9f9f9;
+          transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+          min-width: 300px;
+          &:focus {
+            border-color: #0da850;
+            box-shadow: 0 0 5px rgba(13, 168, 80, 0.3);
+          }
+        }
+      }
+    }
+  }
+  button {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 14px 28px;
+    border-radius: 12px;
+    background-color: #0279cd;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    align-self: flex-end;
+
+    &:hover {
+      background-color: #ffffff;
+      color: #13751e;
+      border: 1px solid #13751e;
+      box-shadow: 0 0 8px rgba(19, 117, 30, 0.5);
+    }
+  }
+}
