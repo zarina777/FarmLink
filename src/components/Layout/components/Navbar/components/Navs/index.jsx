@@ -21,7 +21,7 @@ const Navs = () => {
       </li>
       <li>
         <NavLink activeClassName="active" to="contact">
-          Contact
+          FAQ&Contact
         </NavLink>
       </li>
     </ul>

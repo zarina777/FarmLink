@@ -1,0 +1,77 @@
+.FormMessage {
+  padding: 20px;
+    width: 60%;
+    height: 100%;
+    background-color: #fff;
+    .contactForm {
+
+      width: 100%;
+      height: 400px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+
+     
+    }
+  }
+  h1{
+    color: green;
+  }
+  
+  .formGroup {
+    margin-bottom: 1.5rem;
+    &:nth-child(5) {
+        grid-column: 1 / 3; // Span both columns
+        grid-row: 3 / 4; // Ensure it stays in the correct row
+      }
+      &:nth-child(6) {
+        grid-column: 1 / 3; // Span both columns
+        grid-row: 4 / 5; // Ensure it stays in the correct row
+      }
+  
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+    }
+  
+    input, textarea {
+      width: 100%;
+      padding: 0.5rem;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+  
+      &:focus {
+        border-color: green; // Highlight on focus
+        outline: none; // Remove default outline
+      }
+    }
+  
+    textarea {
+      resize: vertical; // Allow vertical resizing only
+      min-height: 100px; // Minimum height for the textarea
+    }
+  }
+  
+  .submitButton {
+    background-color:green ; // Button color
+    color: white;
+    border: none;
+    padding: 15px 24px;
+    justify-self: flex-end;
+    grid-column: 1/3;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+  
+    &:hover {
+      background-color: rgb(55, 87, 7); // Darker shade on hover
+    }
+  }
+  

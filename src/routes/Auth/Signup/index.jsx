@@ -26,17 +26,17 @@ const Signup = () => {
             />
           </label>
           <label>
-            <h3>Your Username</h3>
+            <h3>Username</h3>
             <input placeholder="Enter your username..." type="text" required />
           </label>
 
           <label>
-            <h3>Your Email</h3>
+            <h3>Email</h3>
             <input placeholder="Enter your email..." type="email" required />
           </label>
 
           <label>
-            <h3>Your Password</h3>
+            <h3> Password</h3>
             <input
               placeholder="Enter your password..."
               type="password"

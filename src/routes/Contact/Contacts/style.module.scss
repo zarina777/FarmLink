@@ -1,0 +1,41 @@
+.contact_container {
+  width: 40%;
+  background: rgba(29, 166, 45, 0.2156862745);
+  color: white;
+  padding: 40px;
+  text-align: left; /* Align text to the left */
+}
+
+
+
+.contact_info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.location,
+.hours,
+.phone,
+.email {
+  display: flex;
+  flex-direction: column;
+}
+
+.location h3,
+.hours h3,
+.phone h3,
+.email h3 {
+  color: #282828; 
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.location p,
+.hours p,
+.phone p,
+.email p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 4px;
+}
