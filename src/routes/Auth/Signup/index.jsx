@@ -8,8 +8,8 @@ const Signup = () => {
     { value: "admin", label: "Admin" },
   ];
   return (
-    <form className={cn.Login}>
-      <h2>Log in your Account</h2>
+    <form className={cn.Signup}>
+      <h2>Sign up</h2>
 
       <p>
         <h3>Choose the type of your Account</h3>

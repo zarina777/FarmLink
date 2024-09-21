@@ -1,5 +1,4 @@
 import cn from "./style.module.scss";
-import db from "../../../../../db.json";
 
 const Banner = () => {
   const data = [1, 2, 3, 4, 5, 6];

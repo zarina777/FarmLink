@@ -132,6 +132,29 @@
       "description": "The 'Gulshan' variety of watermelon is a refreshing, juicy, and sweet fruit perfect for hot summer days.",
       "img": ["./images/watermelon.jpg"],
       "type": "melon crop"
+    },
+    {
+      "name": "beans",
+      "price": "2,000 UZS",
+      "description": "Beans for palov",
+      "img": ["./images/beans.jpg"],
+      "type": "legumes"
+    },
+    {
+      "name": "Green pea",
+      "price": "4000 UZS",
+      "description": "green peas for food",
+      "img": ["./images/greenpea.jpg"],
+      "type": "legumes"
+    },
+    {
+      "name": "Peas",
+      "price": "6,000 UZS",
+      "description": "yellow and sweet peas",
+      "img": ["./images/peas.jpg"],
+      "type": "legumes"
     }
   ]
 }
+  
+

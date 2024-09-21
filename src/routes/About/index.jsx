@@ -1,4 +1,4 @@
-import Container from "../../components/Container/Container"
+import Container from "../../components/Container"
 import Section1 from "./components/Section1"
 import Section2 from "./components/Section2"
 import cn from "./style.module.scss";

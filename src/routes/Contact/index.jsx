@@ -1,5 +1,5 @@
 
-import Container from '../../components/Container/Container';
+import Container from '../../components/Container';
 import { useForm } from 'react-hook-form';
 import FAQ from './components/FAQ';
 import cn from './style.module.scss'; // Adjust the import according to your structure

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Container from "../../../Container/Container";
+import Container from "../../../Container";
 import Navs from "./components/Navs";
 import cn from "./style.module.scss";
 const Navbar = () => {

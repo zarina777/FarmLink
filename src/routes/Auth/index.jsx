@@ -1,14 +1,12 @@
 import cn from "./style.module.scss";
-import Container from "../../components/Container/Container";
+import Container from "../../components/Container";
 import Signup from "./Signup";
 import Login from "./Login";
 import { useParams } from "react-router-dom";
 
-
 const Auth = () => {
   const { action } = useParams();
 
-  
   return (
     <div className={cn.Auth}>
       <Container className={cn.container}>

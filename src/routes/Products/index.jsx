@@ -4,7 +4,7 @@ import Category from "./components/Categories";
 import { ContextCategory } from "./components/context";
 import cn from "./style.module.scss";
 import db from "../../../db.json";
-import Container from "../../components/Container/Container";
+import Container from "../../components/Container";
 
 const Products = () => {
   const data = JSON.parse(JSON.stringify(db)).products;

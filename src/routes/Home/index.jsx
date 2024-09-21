@@ -1,4 +1,4 @@
-import Container from "../../components/Container/Container";
+import Container from "../../components/Container";
 import Banner from "./components/Banner";
 import ProductsEx from "./components/Products";
 import cn from "./style.module.scss";
