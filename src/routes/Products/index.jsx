@@ -70,6 +70,10 @@ const Products = () => {
               if (el.type == "animal products") {
                 return <CardOfMentor key={index} product={el} />;
               }
+            }else if (categoryOn == "crops") {
+              if (el.type == "crops") {
+                return <CardOfMentor key={index} product={el} />;
+              }
             }
           })}
         </div>

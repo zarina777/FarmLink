@@ -16,10 +16,10 @@ const Section2 = () => {
             <h2>Services We Provide</h2>
           </div>
           <div className={cn.part2}>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad
-            doloremque quam, quia maxime nisi, laboriosam perspiciatis voluptate
-            corporis molestias totam veniam libero ex fugit commodi facilis
-            blanditiis cupiditate quasi quae.
+            Create a convenient marketplace for farmers and sellers by advancing
+            the agro-market system. Fast and convenient delivery of cheap and
+            high-quality products to the buyer. In this case, the farmer and all
+            size of business owners take an advantage of our platform.
           </div>
         </div>
         <div className={cn.cards}>
@@ -52,7 +52,6 @@ const Section2 = () => {
           >
             <ImageWrapper src={rasm4} alt="this is photo" className={cn.card} />
           </Card>
-          
         </div>
       </div>
     </>

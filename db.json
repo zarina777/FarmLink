@@ -123,7 +123,7 @@
       "name": "Turnip",
       "price": "Price: Around 2,000 UZS per kg.",
       "description": "The 'Bardhush' variety of turnip is a root vegetable often added to salads and soups.",
-      "img": ["./images/turnip.jpg"],
+      "img": ["./images/Turnip.webp"],
       "type": "vegetable"
     },
     {
@@ -138,21 +138,42 @@
       "price": "2,000 UZS",
       "description": "Beans for palov",
       "img": ["./images/beans.jpg"],
-      "type": "legumes"
+      "type": "crops"
     },
     {
       "name": "Green pea",
       "price": "4000 UZS",
       "description": "green peas for food",
       "img": ["./images/greenpea.jpg"],
-      "type": "legumes"
+      "type": "crops"
     },
     {
       "name": "Peas",
       "price": "6,000 UZS",
       "description": "yellow and sweet peas",
       "img": ["./images/peas.jpg"],
-      "type": "legumes"
+      "type": "crops"
+    },
+    {
+      "name": "egg",
+      "price": "1,500 UZS",
+      "description": "Eggs are simple",
+      "img": ["./images/egg.jpg"],
+      "type": "animal products"
+    },
+    {
+      "name": "Milk",
+      "price": "4,000 UZS",
+      "description": "Fat milk",
+      "img": ["./images/milk.jpg"],
+      "type": "animal products"
+    },
+    {
+      "name": "Honey",
+      "price": "30,000 UZS",
+      "description": "Mountain honey",
+      "img": ["./images/honey.jpg"],
+      "type": "animal products"
     }
   ]
 }
