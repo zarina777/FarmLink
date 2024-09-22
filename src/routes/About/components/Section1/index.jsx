@@ -5,8 +5,7 @@ const Section1 = () => {
   return (
     <div className={cn.Section1_wrapper}>
       <div className={cn.box1}>
-        <h4>About Agriculture farm</h4>
-        <h1>Our Company and the Traditions of Agricultural Farming</h1>
+        <h1>Our Platform and Its Benefit to Agricultural Economy </h1>
         <p>
           FarmLink is a platform that connects farmers with business owners,
           enabling reliable transactions and streamlining the supply chain for
@@ -14,7 +13,8 @@ const Section1 = () => {
           agriculture-business ecosystem
         </p>
         <p>
-          It reduces the time consumption of searching for the best farmers with high quality product.
+          It reduces the time consumption of searching for the best farmers with
+          high quality product.
         </p>
         <p>
           We provide an opportunity to business owners connecting directly with
